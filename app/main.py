@@ -5,6 +5,7 @@ from typing import List
 
 from .database import engine, Base
 
+print("你好")
 # 创建所有表
 Base.metadata.create_all(bind=engine)
 
